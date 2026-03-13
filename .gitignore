@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+venv/
+ENV/
+.venv/
+
+# Ignore the F1 data cache folder
+cache/
+
+# Ignore Python bytecode (the hidden files Python creates to run faster)
+__pycache__/
+*.py[cod]
+
+# Ignore VS Code settings
+.vscode/
