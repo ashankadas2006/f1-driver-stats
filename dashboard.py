@@ -40,11 +40,10 @@ def get_driver_dashboard(driver_id):
     print(f"Wins:         {wins}")
     print(f"Podiums:      {podiums}")
     print(f"Total Points: {total_points}")
-    print(f"Avg Position: {avg_finish:.3f}") # .1f rounds to 1 decimal place
+    print(f"Avg Position: {avg_finish:.3f}")
     print("-" * 30)
 
 # --- EXECUTION ---
 if __name__ == "__main__":
-    # You can change 'alonso' to 'leclerc', 'piastri', etc.
     user_input = input("Enter Driver ID (last name): ").lower().strip()
     get_driver_dashboard(user_input)
